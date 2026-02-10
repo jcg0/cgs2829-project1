@@ -18,7 +18,6 @@ $(document).ready(() => {
   $('#menu img').click( e => {
     e.preventDefault();
     const itemName = e.target.alt;
-    console.log(itemName);
     let price = 0;
     switch (itemName) {
       case 'espresso':
